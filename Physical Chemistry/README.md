@@ -6,4 +6,4 @@ Books in this repositoty are
 - ### [KL Kapoor Vol 2](<K.L.Kapoor Physical Chemistry Volume-2.pdf>)
 
 
-<iframe src="<Atkins_Physical Chemistry 8th Edition.pdf>" width="100%" height="600"></iframe>
+
