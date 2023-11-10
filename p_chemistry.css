@@ -41,7 +41,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 22px;
+    
 }
 
 @media (max-width: 768px) {
@@ -65,7 +65,7 @@ a{
         color: rgb(76, 224, 76);
     }
     100% {
-        color: blue;
+        color: rgb(243, 13, 13);
     }
 }
 
