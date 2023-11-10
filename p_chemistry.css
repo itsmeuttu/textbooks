@@ -7,12 +7,12 @@ body{
 h1{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 400%;
 }
 
 a{
     color: white;
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -37,8 +37,39 @@ footer {
     
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 30px;
+        padding: 4%;
+    }
+a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+}
+
+
+@keyframes colorTransition {
+    0% {
+        color: rgb(76, 224, 76);
+    }
+    100% {
+        color: blue;
+    }
+}
+
+ a {
+    display: inline-block;
+    animation: colorTransition 2s infinite alternate; /* Adjust duration and animation behavior */
 }
